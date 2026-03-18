@@ -1,4 +1,6 @@
-# 6gxr-uc1_congestion_control_qod
+#6G-XR_UC1_congestion_control_qod
+
+This repository contains the data and logs generated during the validation of the XR Remote Renderer component within the 6G-XR project. The specific test cases involving the XR Remote Renderer, as well their results, are described in the deliverable D6.1, available at the 6G-XR web page.
 
 Dataset files for UC1 congestion control using QoD measurements.
 

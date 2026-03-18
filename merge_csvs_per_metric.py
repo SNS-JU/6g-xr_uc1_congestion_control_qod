@@ -29,7 +29,7 @@ def parse_args() -> argparse.Namespace:
         "--output-dir",
         type=Path,
         default=None,
-        help="Directory for merged CSV files. Defaults to <input-dir>/merged_by_metric.",
+        help="Directory for merged CSV files. Defaults to <input-dir>/Dataset files.",
     )
     parser.add_argument(
         "--pattern",
@@ -132,7 +132,7 @@ def merge_metric(metric: str, entries: list[tuple[dict[str, str], Path]], output
 def main() -> int:
     args = parse_args()
     input_dir = args.input_dir.resolve()
-    output_dir = (args.output_dir or input_dir / "merged_by_metric").resolve()
+    output_dir = (args.output_dir or input_dir / "Dataset files").resolve()
 
     grouped_files = discover_files(input_dir, args.pattern)
     if not grouped_files:

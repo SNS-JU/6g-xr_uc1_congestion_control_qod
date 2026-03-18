@@ -1,4 +1,4 @@
-# 6g-xr_uc1_congestion_control_qod
+# 6gxr-uc1_congestion_control_qod
 
 Dataset files for UC1 congestion control using QoD measurements.
 

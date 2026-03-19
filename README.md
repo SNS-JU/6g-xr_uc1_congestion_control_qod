@@ -9,7 +9,7 @@ Dataset files for UC1 congestion control using QoD measurements.
 - [`Dataset files/`](Dataset%20files/) contains the merged CSV exports grouped by metric.
 - Raw session CSV inputs are kept in the repository for traceability and are ignored by default for new Git additions.
 
-## Available merged datasets
+## Available datasets
 
 - `fps_merged.csv`
 - `latency_merged.csv`

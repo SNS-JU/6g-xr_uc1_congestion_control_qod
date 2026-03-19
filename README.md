@@ -1,4 +1,4 @@
-# 6G-XR_UC1_Congestion_Control_QoD Dataset
+# 6GXR_UC1_Congestion_Control_QoD Dataset
 
 This repository contains the data and logs generated during the validation of the QoD within the 6G-XR project. The specific test cases as well their results, are described in the deliverable D6.1, available at the 6G-XR web page.
 
